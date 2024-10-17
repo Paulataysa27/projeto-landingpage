@@ -1,0 +1,176 @@
+@font-face{
+    font-family: varela;
+    src: url(/fonts/Varela-Regular.ttf);
+}
+
+body,html{
+    font-family: varela;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: rgb(220, 220, 220);
+    padding: 10px 2% 40px 2%;
+}
+
+.logo1{
+    float: left;
+    width: 150px;
+    height: 60px;
+    margin-top: 5px;
+    background-image: url(/imagens/logo1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-color: purple;*/
+}
+
+.logo2{
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-image: url(/imagens/logo2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-color: green;*/
+}
+
+section.cover-form{
+    width: 100%;
+}
+
+.bg{
+    position: relative;
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/imagens/bg-form.jpg);
+}
+
+.form-container{
+    position: absolute;
+    top: -2.5%;
+    right: 30px;
+    width: 400px;
+    height: 105%;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px rgb(180, 180, 180);
+}
+
+.form-container h2{
+    font-weight: normal;
+    padding: 25px 15px;
+    color: black;
+    font-size: 18px;
+    background-color: rgb(210, 210, 210);
+}
+
+.form-container form{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.form-container form p{
+    font-size: 14px;
+    color:#525252;
+    margin-top: 15px;
+}
+
+.form-wraper:not(:first-child){
+    margin-top: 20px;
+}
+
+.form-wraper:last-child{
+    margin-top: 20px;
+}
+
+.form-container form input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.form-container form input[type=submit]{
+    background-color: #033C50;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    height: 30px;
+    cursor: pointer;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+section.chamada{
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+section.chamada div.container{
+    background-color: rgb(231, 230, 230);
+    padding: 70px 0 50px 0;
+}
+
+section.chamada h2{
+    max-width: 700px;
+    width: 98%;
+    display: inline-block;
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+section.chamada p{
+    max-width: 700px;
+    width: 98%;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.flex-mosaico{
+	display: flex;
+}
+
+.item-1-mosaico{
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+}
+
+.item-2-mosaico{
+	background-color: #4683AB;
+	padding:90px 40px;
+	width: 40%;
+}
+
+.item-2-mosaico p{
+	color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p{
+    margin-top: 8px;
+}
