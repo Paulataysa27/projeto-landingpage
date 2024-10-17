@@ -54,8 +54,7 @@ section.cover-form{
     height: 560px;
     background-position: center;
     background-size: cover;
-    background-image: url(projeto-landingpage/imagens
-/bg-form.jpg);
+    background-image: url(imagens/bg-form.jpg);
 }
 
 .form-container{
